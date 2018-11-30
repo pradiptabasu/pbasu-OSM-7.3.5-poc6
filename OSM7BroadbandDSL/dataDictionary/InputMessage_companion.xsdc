@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xsi:type="dataDictionaryCompanionType" name="InputMessage_companion">
+  <displayName>DDCM</displayName>
+  <id>---c--+m--+n--+B7CYgLg</id>
+  <dataDictionaryNode>
+    <entity>InputMessage</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>OrderType</element>
+    <elementType>OrderType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>OrderType</dataElementId>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>InputMessage</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>order</element>
+    <elementType>im:OrderType</elementType>
+    <baseElement>OrderType</baseElement>
+    <baseNamespace>http://xmlns.oracle.com/InputMessage</baseNamespace>
+    <dataElementId>order</dataElementId>
+  </dataDictionaryNode>
+</modelEntity>

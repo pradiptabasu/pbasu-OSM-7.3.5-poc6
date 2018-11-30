@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/orchestration" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:osm="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="OrderRecognitionRuleType" name="DslOrder_RR">
+  <com:displayName>DslOrder_RR</com:displayName>
+  <com:saveVersion>29</com:saveVersion>
+  <com:id>GEQIjp1q--+GyYxJq0ccgQ</com:id>
+  <namespace>OSMBroadbandDSL.com</namespace>
+  <inputMessage>
+    <com:entity>InputMessage</com:entity>
+    <com:entityType>xsd</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderRecognitionRule.inputMessage</com:relationship>
+    <com:element>order</com:element>
+    <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+    <com:elementName>order</com:elementName>
+    <com:namespace>http://xmlns.oracle.com/InputMessage</com:namespace>
+    <com:baseElement>OrderType</com:baseElement>
+    <com:baseNamespace>http://xmlns.oracle.com/InputMessage</com:baseNamespace>
+  </inputMessage>
+  <targetOrder>
+    <com:entity>OSM7BroadbandDSLOrder</com:entity>
+    <com:entityType>order</com:entityType>
+    <com:relationship>oracle.communications.sce.osm.orchestration.orderRecognitionRule.targetOrder</com:relationship>
+  </targetOrder>
+  <recognitionRule xsi:type="osm:XqueryExpressionRuleType">
+    <osm:xquery>fn:namespace-uri(.) = 'http://xmlns.oracle.com/InputMessage'&#xD;
+</osm:xquery>
+  </recognitionRule>
+  <relevancy>5</relevancy>
+  <orderDataRule xsi:type="osm:XqueryExpressionRuleType">
+    <osm:xquery>declare namespace im=&quot;http://xmlns.oracle.com/InputMessage&quot;;&#xD;
+let $order := ../im:order&#xD;
+let $customer :=  ../im:order/im:customerAccount&#xD;
+let $details := $customer/im:customerAddress&#xD;
+let $billing := $customer/im:invoiceProfile&#xD;
+return&#xD;
+&lt;_root>&#xD;
+	&lt;DslOrder>&#xD;
+		&lt;orderId>{$order/im:numSalesOrder/text()}&lt;/orderId>	  &#xD;
+    &lt;SubscriberInfo>    	&#xD;
+        &lt;PhoneNumber>{$details/im:number/text()}&lt;/PhoneNumber>&#xD;
+        &lt;Name>{$customer/im:numAccount/text()}&lt;/Name>&#xD;
+        &lt;Address>&#xD;
+             &lt;City>{$details/im:city/text()}&lt;/City>&#xD;
+             &lt;PostalCode>{$details/im:codeLocation/text()}&lt;/PostalCode>&#xD;
+		&lt;Street>{$details/im:nameLocation/text()}&lt;/Street>&#xD;
+        &lt;/Address>       &#xD;
+    &lt;/SubscriberInfo>&#xD;
+    &lt;/DslOrder>  &#xD;
+&lt;/_root>&#xD;
+</osm:xquery>
+  </orderDataRule>
+  <orderHeaderRules>
+    <reference xsi:type="osm:XqueryExpressionRuleType">
+      <osm:xquery>'ORP-1'</osm:xquery>
+    </reference>
+  </orderHeaderRules>
+  <orderTemplateContribution>
+    <ord:nodeExtension>
+      <ord:path>/DslOrder</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/fastFoodOrder</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/messageXmlData</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/xmlInputOrder</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:nodeExtension>
+      <ord:path>/order</ord:path>
+      <ord:xmlType>true</ord:xmlType>
+    </ord:nodeExtension>
+    <ord:orderData>
+      <com:entity>InputMessage</com:entity>
+      <com:entityType>xsd</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.orderTemplateNode</com:relationship>
+      <com:element>order</com:element>
+      <com:elementType>com.mslv.studio.core.data.dictionary.node</com:elementType>
+      <com:elementName>order</com:elementName>
+      <com:namespace>http://xmlns.oracle.com/InputMessage</com:namespace>
+      <com:baseElement>OrderType</com:baseElement>
+      <com:baseNamespace>http://xmlns.oracle.com/InputMessage</com:baseNamespace>
+    </ord:orderData>
+  </orderTemplateContribution>
+</com:modelEntity>

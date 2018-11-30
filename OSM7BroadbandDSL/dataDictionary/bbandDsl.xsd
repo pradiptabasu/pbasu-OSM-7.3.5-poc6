@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ff="http://www.example.org/dsl" elementFormDefault="qualified" targetNamespace="http://www.example.org/dsl">
+	<complexType name="DslOrderType">
+		<sequence>
+			<element name="orderId">
+        <simpleType>
+          <restriction base="string"/>
+        </simpleType>
+      </element>
+			<element minOccurs="0" name="AsdlServiceDetails" type="ff:AsdlServiceDetailsType"/>
+			<element minOccurs="0" name="SubscriberInfo">
+				<complexType>
+					<complexContent>
+						<extension base="ff:SubscriberInfoType"/>
+					</complexContent>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="AsdlServiceDetailsType">
+		<sequence>
+			<element name="port">
+				<simpleType>
+					<restriction base="string"/>
+				</simpleType>
+			</element>
+			<element name="bandwidth">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="2"/>
+						<enumeration value="3"/>
+						<enumeration value="5"/>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+	<element name="DslOrder" type="ff:DslOrderType"/>
+		<complexType name="AddressType">
+		<sequence>
+			<element minOccurs="0" name="City">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="MO"/>
+						<enumeration value="TO"/>
+						<enumeration value="OTT"/>
+						<enumeration value="VAN"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element minOccurs="0" name="PostalCode">
+				<simpleType>
+					<restriction base="string"/>
+				</simpleType>
+			</element>
+			<element minOccurs="0" name="Street">
+        <simpleType>
+          <restriction base="string"/>
+        </simpleType>
+      </element>
+		</sequence>
+	</complexType>
+	<complexType name="SubscriberInfoType">
+		<sequence>
+			<element minOccurs="0" name="Address">
+				<complexType>
+					<complexContent>
+						<extension base="ff:AddressType"/>
+					</complexContent>
+				</complexType>
+			</element>
+			<element minOccurs="0" name="PhoneNumber">
+        <simpleType>
+          <restriction base="string"/>
+        </simpleType>
+      </element>
+			<element minOccurs="0" name="Name">
+        <simpleType>
+          <restriction base="string"/>
+        </simpleType>
+      </element>
+		</sequence>
+	</complexType>
+        <complexType name="FalloutMessage">
+    <sequence/>
+  </complexType>
+</schema>

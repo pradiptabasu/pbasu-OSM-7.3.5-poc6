@@ -1,0 +1,20 @@
+<ord:CreateOrder xmlns:ord="http://xmlns.oracle.com/communications/ordermanagement">
+<dsl:DslOrder xmlns:dsl="http://xmlns.oracle.com/DslRequest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dsl:orderId>orderId001</dsl:orderId>
+    <dsl:AsdlServiceDetails>
+        <dsl:port>45</dsl:port>
+        <dsl:bandwidth>5</dsl:bandwidth>
+    </dsl:AsdlServiceDetails>
+    <dsl:SubscriberInfo>
+    	<dsl:Address>
+        	<dsl:City>Barcelona</dsl:City>
+        	<dsl:PostalCode>1A34F</dsl:PostalCode>
+        	<dsl:Street>Cervantes</dsl:Street>
+    	</dsl:Address>
+        <dsl:PhoneNumber>1112223333</dsl:PhoneNumber>
+        <dsl:Name>Miguel</dsl:Name>
+    </dsl:SubscriberInfo>
+
+</dsl:DslOrder>
+         <!--You may enter ANY elements at this point-->
+</ord:CreateOrder>

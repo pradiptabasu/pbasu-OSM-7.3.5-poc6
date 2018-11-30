@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<com:modelEntity xmlns="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:ord="http://xmlns.oracle.com/communications/sce/osm/model/order" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="FalloutBroadbandOrder" xsi:type="ord:orderType">
+  <com:displayName>FalloutBroadbandOrder</com:displayName>
+  <com:saveVersion>4</com:saveVersion>
+  <com:id>Le5+LyA5--+DQMtG--+IZA</com:id>
+  <ord:orderSource>
+    <ord:creationTask>
+      <com:entity>FalloutCreationTask</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.creationTask</com:relationship>
+    </ord:creationTask>
+    <ord:defaultProcess>
+      <com:entity>FalloutProcess</com:entity>
+      <com:entityType>process</com:entityType>
+      <com:relationship>com.mslv.studio.provisioning.order.defaultProcess</com:relationship>
+    </ord:defaultProcess>
+  </ord:orderSource>
+  <ord:orderTemplate>
+    <ord:nodeExtension>
+      <ord:path>/FalloutMessage</ord:path>
+    </ord:nodeExtension>
+  </ord:orderTemplate>
+  <ord:rule name="null_rule"/>
+  <ord:orderStatePolicy>
+    <com:entity>defaultBroadbandDemoOLP</com:entity>
+    <com:entityType>orderPolicy</com:entityType>
+    <com:relationship>com.mslv.studio.provisioning.order.orderPolicy</com:relationship>
+  </ord:orderStatePolicy>
+  <ord:orderPermission>
+    <com:entity>broadbandDemo</com:entity>
+    <com:entityType>rolePermissions</com:entityType>
+    <com:relationship>com.mslv.studio.provisioning.roleSetting</com:relationship>
+    <ord:canCreateOrders>true</ord:canCreateOrders>
+  </ord:orderPermission>
+</com:modelEntity>

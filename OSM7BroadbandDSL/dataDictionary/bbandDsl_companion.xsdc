@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mslv.com/studio/core/model/common" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:data="http://www.oracle.com/communications/studio/core/model/common/data" xmlns:provisioning="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xsi:type="dataDictionaryCompanionType" name="bbandDsl_companion">
+  <displayName>DDCM</displayName>
+  <saveVersion>6</saveVersion>
+  <id>v2wM--+c--+H--+L---Seg</id>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType</element>
+    <elementType>DslOrderType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+ivQoA--+9c7NMFJNmAg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---StM0f--+D---a--+7IQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder</element>
+    <elementType>ff:DslOrderType</elementType>
+    <baseElement>DslOrderType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrder</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>g6FE---e--+8--+zaeIPCQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Q7lX6elZ--+YBJ53---2wQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/orderId</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/orderId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+0PENB--+pmolyIxoN7Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/orderId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>jZVz1Yp3--+0gzlU-MZwRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/orderId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/orderId</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/orderId</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Oe5g---s--+kF8Y6--+LUw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/orderId</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---J---T--+N---arFAckw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/orderId</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AsdlServiceDetailsType</element>
+    <elementType>AsdlServiceDetailsType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AsdlServiceDetailsType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---52cUF--+i44Nr---CRA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AsdlServiceDetailsType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>oOdoGwV9--+V4nUM92UECQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AsdlServiceDetailsType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/AsdlServiceDetails</element>
+    <elementType>ff:AsdlServiceDetailsType</elementType>
+    <baseElement>AsdlServiceDetailsType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrderType/AsdlServiceDetails</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+E---L--+mCNJSw+FDsQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>9y0Z--+a--+AW5kU---DSw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/AsdlServiceDetails</element>
+    <elementType>ff:AsdlServiceDetailsType</elementType>
+    <baseElement>AsdlServiceDetailsType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrder/AsdlServiceDetails</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Px8lCNlm--+hgYdSoHx5eA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>HmgrFjw0--+S--+8XiUMsA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AsdlServiceDetailsType/port</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AsdlServiceDetailsType/port</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>tjlmXphJ--+5KUgmEM9ARA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AsdlServiceDetailsType/port</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+7--+O--+ZAaMIGD8gVw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AsdlServiceDetailsType/port</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/AsdlServiceDetails/port</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/AsdlServiceDetails/port</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>j5A6SMIR--+E---g--+2qw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails/port</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---JBll6--+C3SkYXftg1g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails/port</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/AsdlServiceDetails/port</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/AsdlServiceDetails/port</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>L-wSmU4e--+23bk7gKFOJQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails/port</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+z---8--+W---8D9tUtw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails/port</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AsdlServiceDetailsType/bandwidth</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AsdlServiceDetailsType/bandwidth</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>nTUQ---T--+mXh4UrehSIg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AsdlServiceDetailsType/bandwidth</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Z9QeVcAD--+DZm1KOXMG6Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AsdlServiceDetailsType/bandwidth</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/AsdlServiceDetails/bandwidth</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/AsdlServiceDetails/bandwidth</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>6SoW---h--+7R1Ug---aig</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails/bandwidth</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>tEM-QlsD--+hxT12ZExvVg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/AsdlServiceDetails/bandwidth</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/AsdlServiceDetails/bandwidth</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/AsdlServiceDetails/bandwidth</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---0RdQp--+7+5pf---Sww</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails/bandwidth</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---BHGl5--+L7RRgR6RDzA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/AsdlServiceDetails/bandwidth</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType</element>
+    <elementType>SubscriberInfoType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>REwE---u--+E--+3--+CpA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>w00R---k--++---RqlIeqQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>SubscriberInfoType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+5---A--+Z--+KaNVhSA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>2Ct1---i--+e---I--+0AQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>SubscriberInfoType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>r8UQ6OEa--+3--+IkOs+Cw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>MhtyJewh--+PAE1S--+5sA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AddressType</element>
+    <elementType>AddressType</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AddressType</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+-avI6--++3+8T---1yw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AddressType</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---b---D--+c---0---33A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AddressType</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/Address</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>AddressType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>SubscriberInfoType/Address</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>d9Ic--+n--+abpIL---I4Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/Address</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>fSVn--+O--+JrKJU---TSg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/Address</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/Address</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>AddressType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/Address</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+B--+d--+2j9km--+-WQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>Q-lwvSFx--+O--+ZdLUjbA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/Address</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>AddressType</baseElement>
+    <baseNamespace>http://www.example.org/dsl</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/Address</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>Q0lT--+v--+qvqUe1EccyA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+i--+5--+P+LkJk9Qmlw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AddressType/City</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AddressType/City</dataElementId>
+    <enumerationDescription>
+      <value>MO</value>
+      <description>Montreal</description>
+    </enumerationDescription>
+    <enumerationDescription>
+      <value>TO</value>
+      <description>Toronto</description>
+    </enumerationDescription>
+    <enumerationDescription>
+      <value>OTT</value>
+      <description>Ottawa</description>
+    </enumerationDescription>
+    <enumerationDescription>
+      <value>VAN</value>
+      <description>Vancouver</description>
+    </enumerationDescription>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---h---E--+4+00y---ExQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AddressType/City</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+m---c--+e--+m0r5V0Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AddressType/City</data:dataElementId>
+      </detail>
+      <detail xsi:type="data:dataElementEnumerationDetail">
+        <id>W2UK--+l--++---ikwtpJw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementEnumeration</elementType>
+        <data:dataElementId>AddressType/City</data:dataElementId>
+        <data:enumeration>
+          <id>MO</id>
+          <data:value>MO</data:value>
+          <data:description lang="[default]">Montreal</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <id>TO</id>
+          <data:value>TO</data:value>
+          <data:description lang="[default]">Toronto</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <id>OTT</id>
+          <data:value>OTT</data:value>
+          <data:description lang="[default]">Ottawa</data:description>
+        </data:enumeration>
+        <data:enumeration>
+          <id>VAN</id>
+          <data:value>VAN</data:value>
+          <data:description lang="[default]">Vancouver</data:description>
+        </data:enumeration>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/Address/City</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType/Address/City</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>iM5Niu9y--+qEK8C---N-A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/City</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+y--+a--+V---2nFwSBw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/City</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/Address/City</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/Address/City</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>wJAD---v--+gcl5FmiwAKQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/City</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>dNw3bu5X--+---+hogoFDA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/City</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/Address/City</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/Address/City</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>3TxQ--+J--+1uVkZ---Tcw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/City</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>zEUl---1--+TzyUK---tLA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/City</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AddressType/PostalCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AddressType/PostalCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+M--+I--+1--+TmhprAA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AddressType/PostalCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>UhJUqVln--+L--+l---5tA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AddressType/PostalCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/Address/PostalCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType/Address/PostalCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>DmhR---u--+qnZp7XPYpvA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/PostalCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---BxUF0--+PEBhF---JPw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/PostalCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/Address/PostalCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/Address/PostalCode</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---g---V--+5--+M---O2A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/PostalCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---2+aku--+C--+P---9UA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/PostalCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/Address/PostalCode</element>
+    <elementType>(Local Structure)</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/Address/PostalCode</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>O4Np---U--+BorUkJ9pj3g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/PostalCode</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+0drsX--+AQDhQuQdT+A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/PostalCode</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>AddressType/Street</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>AddressType/Street</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---1nF8E--+clhlQw5dzGQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>AddressType/Street</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+X---i--+s--+--w0b8g</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>AddressType/Street</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/Address/Street</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType/Address/Street</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>MSgkgxdi--+T--+rKlIHAQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/Street</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>CylRm9p2--+J--+DhgYKCA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/Address/Street</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/Address/Street</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/Address/Street</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>dPtqydgg--+5Xlkb---XRQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/Street</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>tGBO---e--+ca5FemrhtJg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Address/Street</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/Address/Street</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/Address/Street</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---LI8Fn--+0jnYKKskeKw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/Street</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+r---M--+e---p---Nvw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Address/Street</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/PhoneNumber</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType/PhoneNumber</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>2RFN---w--+e--+o--++PQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/PhoneNumber</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---sYN05--+1J-kV---0OA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/PhoneNumber</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/PhoneNumber</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/PhoneNumber</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>---cMOFt--+I---EOdxXsg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/PhoneNumber</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+l--+1--+n---8GEk6pQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/PhoneNumber</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/PhoneNumber</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/PhoneNumber</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+z---K--+G---3O5Fltw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/PhoneNumber</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+7---F--+v--+s1WRoqQ</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/PhoneNumber</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>SubscriberInfoType/Name</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>SubscriberInfoType/Name</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>--+Yy5gZ--+JMBtR4H9WFw</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>SubscriberInfoType/Name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>---9Hc5x--+gqQ0c--+Edg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>SubscriberInfoType/Name</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrderType/SubscriberInfo/Name</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrderType/SubscriberInfo/Name</dataElementId>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>vXtc--+w--+I---Jj2Jy6A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>quh7bxED--+T---yQEJfyg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrderType/SubscriberInfo/Name</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>DslOrder/SubscriberInfo/Name</element>
+    <elementType>xs:string</elementType>
+    <baseElement>string</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>DslOrder/SubscriberInfo/Name</dataElementId>
+    <extension xsi:type="provisioning:ElementExtensionType"/>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>+SAa---a--+h--+yP2pR0A</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Name</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>--+GjV9f--+R---T---4aA</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>DslOrder/SubscriberInfo/Name</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+  <dataDictionaryNode>
+    <entity>bbandDsl</entity>
+    <entityType>xsd</entityType>
+    <relationship>com.mslv.studio.core.data.dictionary.extension</relationship>
+    <element>FalloutMessage</element>
+    <elementType>FalloutMessage</elementType>
+    <baseElement>(Reusable Structure)</baseElement>
+    <baseNamespace>http://www.w3.org/2001/XMLSchema</baseNamespace>
+    <dataElementId>FalloutMessage</dataElementId>
+    <displayName>FalloutMessage</displayName>
+    <minCardinality>0</minCardinality>
+    <maxCardinality>1</maxCardinality>
+    <dataDictionaryDetails>
+      <detail xsi:type="data:dataElementCommonDetail">
+        <id>39d8C50V--+T---c--+85Q</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementCommonDetails</elementType>
+        <data:dataElementId>FalloutMessage</data:dataElementId>
+        <data:defaultValue></data:defaultValue>
+        <data:deprecated>false</data:deprecated>
+        <data:abstract>false</data:abstract>
+        <data:internal>false</data:internal>
+      </detail>
+      <detail xsi:type="data:dataElementInformationDetails">
+        <id>CwZsMp4R--+c---0---iJg</id>
+        <elementType>oracle.communications.studio.model.data.StudioModelDataElementInformation</elementType>
+        <data:dataElementId>FalloutMessage</data:dataElementId>
+      </detail>
+    </dataDictionaryDetails>
+  </dataDictionaryNode>
+</modelEntity>

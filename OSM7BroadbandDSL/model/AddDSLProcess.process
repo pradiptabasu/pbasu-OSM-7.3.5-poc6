@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com:modelEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com="http://www.mslv.com/studio/core/model/common" xmlns:proc="http://xmlns.oracle.com/communications/sce/osm/model/process" xmlns="http://xmlns.oracle.com/communications/sce/osm/model/process" xmlns:prov="http://xmlns.oracle.com/communications/sce/osm/model/provisioning" xmlns:task="http://xmlns.oracle.com/communications/sce/osm/model/process/task" xsi:type="proc:processType" name="AddDSLProcess" workstream="false">
+  <com:displayName>AddDSLProcess</com:displayName>
+  <com:saveVersion>9</com:saveVersion>
+  <com:id>8Exg---h--+F---qtEpc4g</com:id>
+  <proc:orderType>
+    <com:entity>OSM7BroadbandDSLOrder</com:entity>
+    <com:entityType>order</com:entityType>
+    <com:relationship>orderRef</com:relationship>
+  </proc:orderType>
+  <proc:expectedDuration>P0Y0M0DT0H0M86400S</proc:expectedDuration>
+  <proc:startTask>Start1</proc:startTask>
+  <proc:activity id="Start1" name="Start">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>135.0</proc:Xcoordinate>
+      <proc:Ycoordinate>35.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task1" name="ActivateDSLAM">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>360.0</proc:Xcoordinate>
+      <proc:Ycoordinate>360.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>ActivateDSLAM</com:entity>
+      <com:entityType>automationTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task2" name="AddExtraCapacity">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>135.0</proc:Xcoordinate>
+      <proc:Ycoordinate>360.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>AddExtraCapacity</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task3" name="AssignDSLPort">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>135.0</proc:Xcoordinate>
+      <proc:Ycoordinate>246.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>AssignDSLPort</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task4" name="ShipDSLModem">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>360.0</proc:Xcoordinate>
+      <proc:Ycoordinate>132.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>ShipDSLModem</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task5" name="VerifyDSLService">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>135.0</proc:Xcoordinate>
+      <proc:Ycoordinate>132.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>VerifyDSLService</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:taskRef" id="Task6" name="VerifyOrder">
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>360.0</proc:Xcoordinate>
+      <proc:Ycoordinate>474.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+    <proc:task>
+      <com:entity>VerifyOrder</com:entity>
+      <com:entityType>manualTask</com:entityType>
+      <com:relationship>taskRef</com:relationship>
+    </proc:task>
+  </proc:activity>
+  <proc:activity xsi:type="proc:endType" id="End1" name="End">
+    <proc:diagramLocation>
+      <proc:Xcoordinate>360.0</proc:Xcoordinate>
+      <proc:Ycoordinate>571.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+  </proc:activity>
+  <proc:activity xsi:type="proc:joinType" id="Join2" name="WaitForPortAndModem">
+    <proc:inputType>ALL</proc:inputType>
+    <proc:processHistorySummary>true</proc:processHistorySummary>
+    <proc:diagramLocation>
+      <proc:Xcoordinate>360.0</proc:Xcoordinate>
+      <proc:Ycoordinate>246.0</proc:Ycoordinate>
+    </proc:diagramLocation>
+  </proc:activity>
+  <proc:transition id="Flow3" name="">
+    <proc:from>Start1</proc:from>
+    <proc:to>Task5</proc:to>
+    <proc:status></proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow4" name="success">
+    <proc:from>Task5</proc:from>
+    <proc:to>Task3</proc:to>
+    <proc:status>success</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow5" name="success">
+    <proc:from>Task5</proc:from>
+    <proc:to>Task4</proc:to>
+    <proc:status>success</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow6" name="port_unavailable">
+    <proc:from>Task3</proc:from>
+    <proc:to>Task2</proc:to>
+    <proc:status>port_unavailable</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow7" name="next">
+    <proc:from>Task2</proc:from>
+    <proc:to>Task3</proc:to>
+    <proc:status>next</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow8" name="completed">
+    <proc:from>Task4</proc:from>
+    <proc:to>Join2</proc:to>
+    <proc:status>completed</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow9" name="port_available">
+    <proc:from>Task3</proc:from>
+    <proc:to>Join2</proc:to>
+    <proc:status>port_available</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow10" name="true">
+    <proc:from>Join2</proc:from>
+    <proc:to>Task1</proc:to>
+    <proc:status>true</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow12" name="success">
+    <proc:from>Task1</proc:from>
+    <proc:to>Task6</proc:to>
+    <proc:status>success</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+  <proc:transition id="Flow13" name="finish">
+    <proc:from>Task6</proc:from>
+    <proc:to>End1</proc:to>
+    <proc:status>finish</proc:status>
+    <proc:mandatoryCheck>true</proc:mandatoryCheck>
+  </proc:transition>
+</com:modelEntity>

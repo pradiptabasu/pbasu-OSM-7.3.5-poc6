@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Ovidiu G (MetaSolv Software Inc.) -->
+<xs:schema xmlns:tns="http://xmlns.oracle.com/communications/sce/dictionary/BroadbandDSLDemo/BroadbandDSLDemo" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/communications/sce/dictionary/BroadbandDSLDemo/BroadbandDSLDemo">
+	<xs:complexType name="adsl_service_details_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:simpleType name="bandwidth_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="street_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="address_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:simpleType name="postal_code_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="6"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="port_id_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="13"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="subscriber_info_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:sequence/>
+	</xs:complexType>
+	<xs:simpleType name="name_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="city_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="MO"/>
+			<xs:enumeration value="OT"/>
+			<xs:enumeration value="TO"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="primary_phone_number_ddBaseType">
+		<xs:annotation>
+			<xs:documentation/>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:complexType name="AsdlServiceDetails">
+		<xs:complexContent>
+			<xs:extension base="tns:adsl_service_details_ddBaseType">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="PortId">
+            <xs:simpleType>
+              <xs:restriction base="tns:port_id_ddBaseType"/>
+            </xs:simpleType>
+          </xs:element>
+					<xs:element minOccurs="0" name="Bandwidth">
+            <xs:simpleType>
+              <xs:restriction base="tns:bandwidth_ddBaseType"/>
+            </xs:simpleType>
+          </xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SubscriberInfo">
+		<xs:complexContent>
+			<xs:extension base="tns:subscriber_info_ddBaseType">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="Address">
+						<xs:complexType>
+							<xs:complexContent>
+								<xs:extension base="tns:address_ddBaseType">
+									<xs:sequence>
+										<xs:element minOccurs="0" name="City">
+                      <xs:simpleType>
+                        <xs:restriction base="tns:city_ddBaseType"/>
+                      </xs:simpleType>
+                    </xs:element>
+										<xs:element minOccurs="0" name="PostalCode">
+                      <xs:simpleType>
+                        <xs:restriction base="tns:postal_code_ddBaseType"/>
+                      </xs:simpleType>
+                    </xs:element>
+										<xs:element minOccurs="0" name="Street">
+                      <xs:simpleType>
+                        <xs:restriction base="tns:street_ddBaseType"/>
+                      </xs:simpleType>
+                    </xs:element>
+									</xs:sequence>
+								</xs:extension>
+							</xs:complexContent>
+						</xs:complexType>
+					</xs:element>
+					<xs:element minOccurs="0" name="PrimaryPhoneNumber">
+            <xs:simpleType>
+              <xs:restriction base="tns:primary_phone_number_ddBaseType"/>
+            </xs:simpleType>
+          </xs:element>
+					<xs:element minOccurs="0" name="Name">
+            <xs:simpleType>
+              <xs:restriction base="tns:name_ddBaseType"/>
+            </xs:simpleType>
+          </xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

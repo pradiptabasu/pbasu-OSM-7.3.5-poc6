@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:HandleFalloutTask="urn:com:metasolv:oms:xmlapi:1"
+	
+           targetNamespace="urn:com:metasolv:oms:xmlapi:1"> 
+  
+    <xs:complexType name="HandleFalloutTask">
+        <xs:sequence>
+        <xs:element name="FalloutMessage" type="xs:(Reusable Structure)"/>
+
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
