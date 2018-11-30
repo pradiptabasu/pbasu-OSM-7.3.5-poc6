@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
            xmlns:HandleFalloutTask="urn:com:metasolv:oms:xmlapi:1"
-	
+	xmlns:exns0="http://www.example.org/dsl"
            targetNamespace="urn:com:metasolv:oms:xmlapi:1"> 
-  
+  <xs:import namespace="http://www.example.org/dsl" schemaLocation="../dataDictionary/bbandDsl.xsd"/>
     <xs:complexType name="HandleFalloutTask">
         <xs:sequence>
-        <xs:element name="FalloutMessage" type="xs:(Reusable Structure)"/>
-
+        <xs:element name="FalloutMessage" type="exns0:FalloutMessage"/>
         </xs:sequence>
     </xs:complexType>
 
